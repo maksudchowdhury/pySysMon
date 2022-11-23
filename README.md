@@ -1,4 +1,4 @@
-# pySysMon2
+# pySysMon
 
 ---
 
@@ -12,11 +12,11 @@
    
    ```batch
    @echo off
-   powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/maksudchowdhury/pySysMon2/archive/refs/heads/main.zip','%cd%/pySysMon.zip')
+   powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/maksudchowdhury/pySysMon/archive/refs/heads/main.zip','%cd%/pySysMon.zip')
    powershell Expand-Archive -LiteralPath pySysMon.zip -DestinationPath pySysMonExt
    del /f "pySysMon.zip"
-   move %cd%\pySysMonExt\pySysMon2-main %cd%
-   rename "pySysMon2-main" "pySysMon"
+   move %cd%\pySysMonExt\pySysMon-main %cd%
+   rename "pySysMon-main" "pySysMon"
    rmdir "pySysMonExt"
    exit()
    ```
