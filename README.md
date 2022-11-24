@@ -18,6 +18,8 @@
    move %cd%\pySysMonExt\pySysMon-main %cd%
    rename "pySysMon-main" "pySysMon"
    rmdir "pySysMonExt"
+   cd pySysMon
+   python39 manage.py -s
    exit()
    ```
 
@@ -25,22 +27,16 @@
 
 5. Press enter
 
-6. If everything goes ok you'll see a folder named 'pySysMon' inside your directory
+6. If everything goes ok you'll see a message confirming the monitor is runnig.
 
-7. Go to that folder
+7. After this you'll find a folder named 'pySysMon' inside your directory, Go to that folder
 
 8. Open the CMD under 'pySysMon' folder location
 
-9. To start the monitor type,
+9. To know more about the commands type,
    
    ```bash
-   python39 manage.py -s
+   python39 manage.py -h
    ```
-
-10. To know more about the commands type,
-    
-    ```bash
-    python39 manage.py -h
-    ```
 
 Keep Learning & take care of yourself  .... 😁😁😁
