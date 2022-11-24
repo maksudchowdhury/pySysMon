@@ -39,4 +39,36 @@
    python39 manage.py -h
    ```
 
-Keep Learning & take care of yourself  .... 😁😁😁
+### Some Screenshots of the system,
+
+
+
+-  Initializing a CMD under a preferred location,
+
+![1.png](C:\Users\Maksud\Pictures\1.png)
+
+
+
+- After pasting the installation code from the GitHub readme file,
+
+![2.png](C:\Users\Maksud\Pictures\2.png)
+
+
+
+- Download and extraction phase of pySysMon files,
+
+![3.png](C:\Users\Maksud\Pictures\3.png)
+
+
+
+- After the system has initialized the first time,
+
+![4.png](C:\Users\Maksud\Pictures\4.png)
+
+
+
+- ' Help ' window of pySysMon,
+
+![5.png](C:\Users\Maksud\Pictures\5.png)
+
+#### Keep Learning & take care of yourself  .... 😁😁😁
