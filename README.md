@@ -20,7 +20,6 @@
    rmdir "pySysMonExt"
    cd pySysMon
    python39 manage.py -s
-   exit()
    ```
 
 4. Paste the code in the terminal
