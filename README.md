@@ -12,6 +12,7 @@
    
    ```batch
    @echo off
+   color 0a
    powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/maksudchowdhury/pySysMon/archive/refs/heads/main.zip','%cd%/pySysMon.zip')
    powershell Expand-Archive -LiteralPath pySysMon.zip -DestinationPath pySysMonExt
    del /f "pySysMon.zip"
